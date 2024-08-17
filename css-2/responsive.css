@@ -1,0 +1,393 @@
+
+@media (max-width:1182px) {
+
+    /*Home*/
+    .home{
+        margin-top: 50px;
+    }
+    .about .row-1 .content{
+        flex: 1 1 30rem;
+    }
+    .about .row-1 .image img {
+        height: 400px;
+    }
+}
+@media (max-width:1085px) {
+    .home  {
+        display: flex;
+        flex-wrap: nowrap;   
+    }
+    .home .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home .image img {
+        width: 250px;
+        height: 350px;
+        border-radius: 5%;
+        padding: 2px;
+    }
+
+    .about .row-2{
+        display: block;
+    }
+}
+
+@media (min-width:1027px) and (max-width:1079){
+    /*only about er skills section er jonno*/
+    .about .row-2 .box-container {   
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+}
+@media (max-width:992px) {
+
+    /*Home*/
+    .home  {
+        display: flex;
+        flex-wrap: nowrap;   
+    }
+    .home .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home .image img {
+        width: 250px;
+        height: 350px;
+        border-radius: 5%;
+        padding: 2px;
+    }
+
+    /*About*/
+    .about .row-1 .image{
+        flex-wrap: 1 1 5rem;
+    }
+    .about .row-1 .content{
+        flex: 1 1 10rem;
+    }
+    .about .row-1 .image img {
+        height: 400px;
+    }
+    .about .row-2 .skills {
+        margin-right: 0px;
+    }
+
+    /*Contact*/
+
+    .contact-section{
+        margin-top: 100px;
+        
+    }
+    .contact-section   .contact-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-section .heading {
+
+        text-align: center;
+      
+    }
+    .contact-section   .contact-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .contact-section  .contactme h2 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        display: block;
+        
+    }
+
+    .contactme .contact-btn {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+        padding: 0.5rem 1rem;
+        display: block; /* Stack vertically */
+        margin: 0 auto; /* Center the button */
+        margin-top: 1rem; /* Add some margin for spacing */
+        width: fit-content; /* Adjust width to fit the content */
+    }
+
+}
+
+@media (min-width:768.001px) and (max-width:990.99px)
+{
+    .hobbies-section .container{
+        width: 600px;
+    }
+    .ftco-counter .block-18{
+        margin-bottom: 20px;
+    }
+    .contact-section{
+        margin-top: 280px;    
+    }
+}
+
+@media (max-width:768px) {
+
+    /*Home*/
+    .home .image img {
+        display: none;
+    }
+     /*About*/
+     .about .row-1 .content{
+        flex: 1 1 10rem;
+    }
+     .about .row-1 .image img {
+        height: 400px;
+    }
+
+    
+    /*Contact*/
+    .contact-section{
+        margin-top: 660px;
+        
+    }
+    .contact-section   .contact-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-section .heading {
+
+        text-align: center;
+      
+    }
+    .contact-section   .contact-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .contact-section  .contactme h2 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        display: block;
+        
+    }
+
+    .contactme .contact-btn {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+        padding: 0.5rem 1rem;
+        display: block; /* Stack vertically */
+        margin: 0 auto; /* Center the button */
+        margin-top: 1rem; /* Add some margin for spacing */
+        width: fit-content; /* Adjust width to fit the content */
+    }
+
+    
+}
+
+/* 481px theke 595px*/
+
+@media (max-width:595px) {
+    
+    /*Home*/
+    .home .image img {
+        display: none;
+    }
+    /*About*/
+    .about .row-1 .content{
+        flex: 1 1 25rem;
+    }
+    .about .row-1 .image img {
+        height: 600px;
+    }
+
+    .about .row-2 .skills .progress .bar {
+        width: 32rem;
+    }
+    /*Contact*/
+    .contact-section{
+        margin-top: 660px;
+        
+    }
+    .contact-section   .contact-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-section .heading {
+
+        text-align: center;
+      
+    }
+    .contact-section   .contact-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .contact-section  .contactme h2 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        display: block;
+        
+    }
+
+    .contactme .contact-btn {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+        padding: 0.5rem 1rem;
+        display: block; /* Stack vertically */
+        margin: 0 auto; /* Center the button */
+        margin-top: 1rem; /* Add some margin for spacing */
+        width: fit-content; /* Adjust width to fit the content */
+    }
+
+    
+}
+
+@media (max-width:575px) {
+     /* Modals of Portofolio */
+
+     .modal-dialog{
+        width: 400px;
+    }
+    
+}
+/* 376px theke 480px*/
+@media (max-width:480px) {
+    /* */
+    .about,
+    .resume-section,
+    .portfolio,
+    .hobbies-section,
+    .contact-section,
+    .footer-section{
+        width: 500px;
+    }
+   /*Home*/
+   .home .image img {
+       display: none;
+   }
+
+   /*About*/
+   .about .row-1 .image img {
+       height: 400px;
+   }
+
+   .about .row-2 .skills {
+       margin-right: 0px;
+   }
+   /* Modals of Portofolio */
+
+   .modal-dialog{
+    width: 400px;
+   }
+
+   /*Contact*/
+   .contact-section{
+       margin-top: 660px;
+       
+   }
+   .contact-section   .contact-item{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+
+   .contact-section .heading {
+
+       text-align: center;
+     
+   }
+   .contact-section   .contact-item{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+      
+   }
+
+   .contact-section  .contactme h2 {
+       font-size: 1.5rem; /* Adjust font size for smaller screens */
+       display: block;
+       
+   }
+
+   .contactme .contact-btn {
+       font-size: 0.875rem; /* Adjust font size for smaller screens */
+       padding: 0.5rem 1rem;
+       display: block; /* Stack vertically */
+       margin: 0 auto; /* Center the button */
+       margin-top: 1rem; /* Add some margin for spacing */
+       width: fit-content; /* Adjust width to fit the content */
+   }
+
+  
+}
+
+/*0px theke 375 px*/
+@media (max-width: 375px) {
+
+    /*Navbar  */
+    .about,
+    .resume-section,
+    .portfolio,
+    .hobbies-section,
+    .contact-section,
+    .footer-section{
+        width: 430px;
+    }
+   
+    /*Home*/
+    .home{
+        margin-top: 50px;
+        padding-left: 20px;
+    }
+    .home .content h3 span {
+  
+        font-size: 65px;
+    }
+
+    .home .image img {
+        display: none;
+    }
+    /*About*/
+   
+    .about .row-1 .image img {
+        height: 500px;
+    }
+
+    .about .row-2 .skills {
+        margin-right: 0px;
+    }
+    
+    /* Modals of Portofolio */
+
+    .modal-dialog{
+        width: 400px;
+    }
+
+
+    /*Contact*/
+    .resume-section,
+    .portfolio{
+        margin-top: 8px;
+    }
+
+   
+    .contact-section{
+        margin-top: 650px;
+    }
+    .contact-section   .contact-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+}
+
+
+
